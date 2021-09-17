@@ -30,6 +30,8 @@ namespace TIME
     public:
         int duree;
         Duree(int d): duree(d){}
+        Duree(int _d, int d): duree(d){}
+
 
         string toString() const
         {
